@@ -79,7 +79,7 @@ class ATM {
     }
 }
 
-public class Main {
+public class Atminterface {
     public static void main(String[] args) {
         BankAccount userAccount = new BankAccount(500.00);
         ATM atm = new ATM(userAccount);
